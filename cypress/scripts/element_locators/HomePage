@@ -1,9 +1,0 @@
-function getCwrLogo() {
-  return Sys.Browser("*")
-    .Page("*")
-    .FindChildByXPath("//img[@alt='Chemist Warehouse Logo']");
-}
-
-module.exports = {
-  getCwrLogo,
-};

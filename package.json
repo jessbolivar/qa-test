@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/jessbolivar/qa-test#readme",
   "devDependencies": {
-    "cypress": "^13.10.0"
+    "cypress": "^13.10.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1"
   },
   "dependencies": {
     "aggregate-error": "^3.1.0",
@@ -180,5 +182,8 @@
     "wrap-ansi": "^7.0.0",
     "wrappy": "^1.0.2",
     "yauzl": "^2.10.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false
   }
 }

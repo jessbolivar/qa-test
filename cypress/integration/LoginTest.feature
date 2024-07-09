@@ -6,7 +6,7 @@ Feature: I want to login into the site with valid and invalid data and search T-
   Scenario: Login as new sign up user with valid data
     When I entered valid credential
       | email                             | validpassword |
-      | testemail@chemistwarehouse.com.au |               |
+      | testemail@chemistwarehouse.com.au | cwretail      |
     When User clicks on sign in button
     Then Validate the title after login
 
